@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/* Filtro para remover alguns elementos do HTML */
 body, nav, ul, li, p, a {
     padding: 0px;
     list-style: none;
@@ -8,12 +9,14 @@ body, nav, ul, li, p, a {
 
 }
 
+/* Estilo do corpo da página */
 body {
     
     background-color: rgb(8, 8, 8);
     color: rgb(255, 255, 255);
 }
 
+/* Estilo para a barra de navegação */
 nav {
 
     padding: 20px;
@@ -28,6 +31,7 @@ nav {
     
 }
 
+/* Estilo para os links na barra de navegação */
 nav > a {
     
     color: rgb(98, 237, 241);
@@ -38,6 +42,7 @@ nav > a {
     transition-duration: 0.3s;
 }
 
+/* Estilo do link ao passar o mouse */
 a:hover {
 
     background-color: rgba(0, 0, 0, 0.678);
@@ -45,7 +50,7 @@ a:hover {
 }
 
 
-
+/* Estilo para a seção do artigo */
 article {
 
     padding: 20px;
@@ -61,7 +66,7 @@ article {
 
 }
 
-
+/* Estilo para os links dentro do artigo */
 article > p > a {
 
     font-size: 20px;
